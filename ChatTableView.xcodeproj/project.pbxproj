@@ -12,6 +12,7 @@
 		A5D21C7A21395BAB00EC1F98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D21C7821395BAB00EC1F98 /* Main.storyboard */; };
 		A5D21C7C21395BAD00EC1F98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5D21C7B21395BAD00EC1F98 /* Assets.xcassets */; };
 		A5D21C7F21395BAD00EC1F98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5D21C7D21395BAD00EC1F98 /* LaunchScreen.storyboard */; };
+		A5D21C8721395C1600EC1F98 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D21C8621395C1600EC1F98 /* ChatCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A5D21C7B21395BAD00EC1F98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5D21C7E21395BAD00EC1F98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5D21C8021395BAD00EC1F98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5D21C8621395C1600EC1F98 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				A5D21C7421395BAB00EC1F98 /* AppDelegate.swift */,
+				A5D21C8621395C1600EC1F98 /* ChatCell.swift */,
 				A5D21C7621395BAB00EC1F98 /* ViewController.swift */,
 				A5D21C7821395BAB00EC1F98 /* Main.storyboard */,
 				A5D21C7B21395BAD00EC1F98 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			files = (
 				A5D21C7721395BAB00EC1F98 /* ViewController.swift in Sources */,
 				A5D21C7521395BAB00EC1F98 /* AppDelegate.swift in Sources */,
+				A5D21C8721395C1600EC1F98 /* ChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +287,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGPMYP7334;
 				INFOPLIST_FILE = ChatTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +306,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EGPMYP7334;
 				INFOPLIST_FILE = ChatTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
